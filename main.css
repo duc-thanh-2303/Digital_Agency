@@ -866,6 +866,12 @@ footer > .links > .links__social > ion-icon {
   }
 
   /* navigation */
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -50px;
+  }
 
   /* nav > .nav__logo {
     width: 70px;
@@ -873,6 +879,8 @@ footer > .links > .links__social > ion-icon {
   } */
 
   nav > .nav__btn {
+    display: none;
+    visibility: hidden;
     background-color: var(--color-cpn);
     color: white;
     border: none;
@@ -881,7 +889,7 @@ footer > .links > .links__social > ion-icon {
     padding: 10px 20px;
     cursor: pointer;
     transition: all 0.5s;
-    margin-left: -300px;
+    /* margin-left: -300px; */
   }
 
   nav > ul {
