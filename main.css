@@ -33,7 +33,7 @@ body {
   height: 8vh;
   /* background-color: red; */
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   border-bottom: 2px solid #1f1e26;
@@ -47,7 +47,7 @@ body {
   border: 2px solid var(--color-cpn);
   background-color: var(--color-bg);
   color: white;
-  margin-right: 10px;
+
   cursor: pointer;
   transition: all 0.5s;
 }
@@ -68,6 +68,7 @@ body {
   padding: 8px 15px;
   border: none;
   border-radius: 20px;
+  margin-right: 10px;
 }
 
 /* navigation */
@@ -855,6 +856,38 @@ footer > .links > .links__social > ion-icon {
 }
 
 @media screen and (max-width: 450px) {
+  /* ads */
+
+  .ads {
+    visibility: hidden;
+    width: 100%;
+    /* height: 8vh; */
+    /* background-color: red; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #1f1e26;
+  }
+
+  /* navigation */
+
+  nav {
+    width: 100%;
+    /* height: 12vh; */
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #1f1e26;
+  }
+
+  nav > ul {
+    visibility: hidden;
+  }
+
+  /* footer */
   footer {
     width: 100%;
     /* height: 40vh; */
