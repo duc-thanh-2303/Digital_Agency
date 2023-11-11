@@ -991,8 +991,8 @@ footer > .links > .links__social > ion-icon {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 600px;
-    margin-top: -180px;
+    margin-bottom: 380px;
+    margin-top: -270px;
   }
 
   .services > .services__title {
@@ -1033,7 +1033,7 @@ footer > .links > .links__social > ion-icon {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 1200px;
+    margin-bottom: 1080px;
     margin-top: 150px;
   }
 
@@ -1099,9 +1099,9 @@ footer > .links > .links__social > ion-icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
-    /* margin-bottom: 70px; */
-    margin-top: 430px;
+    align-items: center;
+    margin-bottom: -180px;
+    margin-top: 210px;
   }
 
   .testimonials > .testimonials__feedback {
@@ -1182,14 +1182,14 @@ footer > .links > .links__social > ion-icon {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     border-top: 1px solid var(--color-text);
     margin-bottom: 50px;
     padding: 0 50px;
   }
 
   footer > .logo {
-    margin-left: -70px;
+    margin-left: 30px;
   }
 
   footer > .address {
@@ -1198,5 +1198,10 @@ footer > .links > .links__social > ion-icon {
 
   footer > .contact {
     margin-bottom: 30px;
+    margin-left: -120px;
+  }
+
+  footer > .links {
+    margin-left: -60px;
   }
 }
