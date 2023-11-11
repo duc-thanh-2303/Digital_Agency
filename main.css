@@ -712,7 +712,7 @@ header
 
 .testimonials > .testimonials__feedback {
   display: unset;
-  margin-left: 150px;
+  margin-left: 100px;
 }
 
 .testimonials > .testimonials__feedback > div:nth-child(1) {
