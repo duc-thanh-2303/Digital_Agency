@@ -867,4 +867,12 @@ footer > .links > .links__social > ion-icon {
     margin-bottom: 150px;
     padding: 0 50px;
   }
+
+  footer > .address {
+    margin-bottom: 30px;
+  }
+
+  footer > .contact {
+    margin-bottom: 30px;
+  }
 }
