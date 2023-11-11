@@ -905,6 +905,8 @@ footer > .links > .links__social > ion-icon {
     display: unset;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    align-items: center;
     grid-gap: 50px;
     margin-top: 50px;
   }
